@@ -1,0 +1,521 @@
+.hero-section{
+    background-image: url(../assets/home-pageb-hero.jpg);
+    background-size:cover;
+    margin-bottom:100px;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-direction: column;
+    color: aliceblue;
+    
+}
+
+.hero-text{
+    justify-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    /* width: 500px; */
+    
+}
+
+.feature-event{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.event-one{
+    width: 30%;
+}
+
+.blog-text p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.second{
+    margin-top: 100px;
+}
+.event{
+    display: flex;
+    flex-direction: row;
+}
+.main-event{
+    display: flex;
+    flex-direction: row;
+    gap: 30px; 
+    
+    
+}
+.main-event h3{
+    font-size: 27px;
+}
+
+.event-img{
+    width: 606px;
+    height: 551px;
+}
+
+.event-text h1{
+    color: rgb(171, 0, 0);;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.events{
+    margin-top: 40px;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+.main-blog-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.blog-date{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    align-items: baseline;
+}
+.blog-location{
+    font-size: 14px;
+}
+.main-blog-text p{
+    display: flex;
+    /* width: 460px; */
+    flex-direction: column;
+    align-items: center;
+    gap: 62px;
+}
+.impact-sec{
+    margin-top: 100px;
+}
+.impact-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    
+}
+.impact-text h1{
+    color: rgb(171, 0, 0);;
+}
+.impact-text p{
+    margin-bottom: 50px;
+    
+}
+.impact-stats{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-items: center;
+    width:310px;
+    
+    
+}
+.stats{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    padding: 30px 30px;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+    border: 2px solid #DBDBDB;
+}
+
+.image-second{
+    margin-top:100px;
+    margin-bottom:100px;
+    width: 100vw;
+}
+
+.about-us h1{
+    color: rgb(171, 0, 0);   
+}
+
+.about-us p{
+    width: 718px;
+    margin-bottom: 50px;
+    margin-top:30px;
+}
+.aboutus{
+    margin-bottom:100px;
+}
+.Financial{
+    background-image:url(../assets/finincial.png);
+    height: 444px;
+    display: flex;
+    align-items: center;
+}
+.Financial p{
+    width: 685px;
+}   
+.Financial-text{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.Contactus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 7px;
+    margin-top:100px;
+    margin-bottom:100px;
+    color: rgb(171, 0, 0);
+    
+    
+}
+
+.location-date{
+    display: flex;
+    gap: 10px;
+    
+}
+.location-date p{
+    width: 200px;
+    
+}
+
+.time-location{
+    display: flex;
+    gap:30px;
+}
+
+/* FOR MOBILE PHONE  */
+
+@media only screen and (min-width:320px) and (max-width:425px)  {
+    
+    .hero-section{
+        background-image: url(../assets/mobile\ home\ page.png);
+        background-size:cover;
+        margin-bottom:100px;
+    }   
+    
+    
+    .hero-text{
+        justify-items: center;
+        text-align: center;
+        margin-bottom: 30px;
+        
+    }
+    
+    .feature-event{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .blog-text p{
+        width: 300px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .second{
+        margin-top: 100px;
+    }
+    .event{
+        display: flex;
+        flex-direction: row;
+    }
+    .main-event{
+        display: flex;
+        flex-direction: column;
+        gap: 30px; 
+        
+        
+    }
+    .main-event h3{
+        font-size: 20px;
+        width: 300px;
+    }
+    
+    .event-img{
+        width: 348px;
+        height: 316.416px;  
+    }
+    
+    .event-text h1{
+        color: rgb(171, 0, 0);;
+        margin-bottom: 20px;
+        margin-top: 100px;
+    }
+    
+    
+    .main-blog-text p{
+        display: flex;
+        width: 300px;
+        flex-direction: column;
+    }
+    
+    .impact-sec{
+        margin-top: 100px;
+    }
+    .impact-text{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        
+    }
+    .impact-text h1{
+        color: rgb(171, 0, 0);;
+    }
+    .impact-text p{
+        margin-bottom: 50px;
+        
+    }
+    .impact-stats{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-items: center;
+        width:310px;
+        
+        
+    }
+    .stats{
+        display: flex;
+        width: 200px;
+        height: 50px;
+        padding: 30px 30px;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 15px;
+        border: 2px solid #DBDBDB;
+    }
+    
+    .image-second{
+        margin-top:100px;
+        margin-bottom:100px;
+        width: 100vw;
+    }
+    
+    .about-us h1{
+        color: rgb(171, 0, 0);   
+    }
+    
+    .about-us p{
+        width: 300px;
+        margin-bottom: 50px;
+        margin-top:30px;
+        text-align: justify;
+    }
+    .aboutus{
+        margin-bottom:100px;
+    }
+    .Financial{
+        background-image:url(../assets/finincial.png);
+        height: 444px;
+        display: flex;
+        align-items: center;
+    }
+    .Financial p{
+        width: 300px;
+    }   
+    
+    .Financial-text{
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+    .Contactus{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 7px;
+        margin-top:100px;
+        margin-bottom:100px;
+        color: rgb(171, 0, 0);
+        
+        
+    }
+    
+    .time-location{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+    .blog-date{
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+    }
+    
+    
+}
+
+/* FOR TABLET */
+@media only screen and (min-width:426px) and (max-width:768px)  {
+    
+    .feature-event{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+    .blog-text p{
+        width: 200px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .second{
+        margin-top: 100px;
+    }
+    .event{
+        display: flex;
+        flex-direction: row;
+    }
+    .main-event{
+        display: flex;
+        flex-direction: row;
+        gap: 30px; 
+        
+        
+    }
+    .main-event h3{
+        font-size: 20px;
+        width: 300px;
+    }
+    
+    .event-img{
+        width: 348px;
+        height: 316.416px;  
+    }
+    
+    .event-text h1{
+        color: rgb(171, 0, 0);;
+        margin-bottom: 20px;
+        margin-top: 100px;
+    }
+    
+    
+    .main-blog-text p{
+        display: flex;
+        width: 300px;
+        flex-direction: row;
+    }
+    
+    .impact-sec{
+        margin-top: 100px;
+    }
+    .impact-text{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        
+    }
+    .impact-text h1{
+        color: rgb(171, 0, 0);;
+    }
+    .impact-text p{
+        margin-bottom: 50px;
+        
+    }
+    .impact-stats{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-items: center;
+        width:310px;
+        
+        
+    }
+    .stats{
+        display: flex;
+        width: 200px;
+        height: 50px;
+        padding: 30px 30px;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 15px;
+        border: 2px solid #DBDBDB;
+    }
+    
+    .image-second{
+        margin-top:100px;
+        margin-bottom:100px;
+        width: 100vw;
+    }
+    
+    .about-us h1{
+        color: rgb(171, 0, 0);   
+    }
+    
+    .about-us p{
+        width: 600px;
+        margin-bottom: 50px;
+        margin-top:30px;
+        text-align: justify;
+    }
+    .aboutus{
+        margin-bottom:100px;
+    }
+    .Financial{
+        background-image:url(../assets/finincial.png);
+        height: 444px;
+        display: flex;
+        align-items: center;
+    }
+    .Financial p{
+        width: 500px;
+    }   
+    
+    .Financial-text{
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+    .Contactus{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 7px;
+        margin-top:100px;
+        margin-bottom:100px;
+        color: rgb(171, 0, 0);
+        
+        
+    }
+    
+    .time-location{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+    .blog-date{
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+    }
+    
+    .main-blog-text{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+    
+    
+}
+
+

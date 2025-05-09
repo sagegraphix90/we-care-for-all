@@ -1,0 +1,140 @@
+.finance-hero{
+    background-image: url(../assets/finance.jpg);
+    background-size:cover;
+    margin-bottom:100px;
+}
+.report{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.report-text p{
+    display: flex;
+    width: 600px;
+}
+.report-text h1{
+    color: rgb(171, 0, 0);
+}
+.donation-info{
+    display: flex;
+    flex-direction:column;
+    gap:40px;
+}
+.donation-main{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    border: 2px solid #DBDBDB;
+    width: 440px;
+    height: 200px;
+    padding: 45px 47px;
+    border-radius: 12px;
+    
+}
+.donation-main h1{
+    font-size:34px;
+    font-weight: 600;
+    letter-spacing: -1.7px;
+}
+
+.donation-text{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    
+}
+.donation-text h1{
+    font-size: 53px;
+    
+}
+.donation-text p{
+    width: 242px;
+    font-size: 23px;
+    font-weight: normal;
+    color: rgb(191, 191, 191);
+}
+.donation-one{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+.info{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.donation-breakdown{
+    text-align: center;
+    color:rgb(171, 0, 0);
+    margin-bottom: 75px;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:425px)  {
+    
+    .report-text p{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    
+    
+    .donation-one{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+    
+    .donation-main{
+        display: flex;
+        flex-direction:column;
+        gap: 10px;
+        border: 2px solid #DBDBDB;
+        width: 300px;
+        height: 200px;
+        padding: 45px 47px;
+        border-radius: 12px;
+        
+    }
+    .donation-text p{
+        width: 242px;
+        font-size: 16px;
+        font-weight: normal;
+        color: rgb(191, 191, 191);
+    }
+}
+
+@media only screen and (min-width:426px) and (max-width:768px)  {
+    
+    .report-text p{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+    
+    
+    .donation-one{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+    
+    .donation-main{
+        display: flex;
+        flex-direction:column;
+        gap: 10px;
+        border: 2px solid #DBDBDB;
+        width: 500px;
+        height: 200px;
+        padding: 45px 47px;
+        border-radius: 12px;
+        
+    }
+    .donation-text p{
+        width: 300px;
+        font-size: 24px;
+        font-weight: normal;
+        color: rgb(191, 191, 191);
+    }
+    
+}

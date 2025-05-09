@@ -1,0 +1,664 @@
+h1,h2,h3,h4,h5,h6,p{
+    font-family:Be Vietnam Pro;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    /* width: 600px; */
+}
+
+h2{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+h4{
+    font-size: 27px;
+    font-weight: bold;
+    
+}
+
+a{
+    font-family:Be Vietnam Pro;
+    font-size: 20px;
+    font-weight: medium;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+}
+
+.sub-body{
+    font-family:Be Vietnam Pro;
+    font-size: 20px;
+    font-weight: normal;
+    
+}
+.card-body{
+    font-family:Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+p{
+    font-size: 20px;
+    font-weight: normal;
+    /* width: 500px; */
+    
+}
+.card-heading{
+    font-family:Be Vietnam Pro;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.image-wrapper img{
+    width: 100%;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+.navigation{
+    display: flex;
+    gap: 189px;
+    align-items: center;
+}
+
+.active{
+    color: brown;
+}
+.logo{
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 35px;;
+}
+
+.button{
+    background-color: rgb(171, 0, 0);
+    color: aliceblue;
+    padding: 10px 30px;
+}
+.button-primary{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 30px;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.footer{
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    gap: 190px;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(171, 0, 0); 
+    margin-left: -10rem;
+    margin-top: 10rem;
+    padding: 3rem 10rem;  
+    height: 17rem;
+}
+.footer-logo{
+    height:100px;
+    width: 100px;
+}
+.footer-location{
+    color: white;
+    width: 357px;
+}
+.footer-heading{
+    color: white;
+    margin-bottom: 20px;}
+    
+    .copyright{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 50px;
+        
+    }
+    .paragraph{
+        width:500px;
+    }
+    
+    input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+    
+    .error-message{
+        color: red;
+        font-family:Be Vietnam Pro;
+        font-size:14px;
+        display: none;
+        
+    }
+    
+    
+    .col-1  { width: 8.33%; }
+    .col-2  { width: 16.66%; }
+    .col-3  { width: 25%; }
+    .col-4  { width: 33.33%; }
+    .col-5  { width: 41.66%; }
+    .col-6  { width: 50%; }
+    .col-7  { width: 58.33%; }
+    .col-8  { width: 66.66%; }
+    .col-9  { width: 75%; }
+    .col-10 { width: 83.33%; }
+    .col-11 { width: 91.66%; }
+    .col-12 { width: 100%; }
+    
+    /* FOR MOBILE PHONE */
+    
+    @media only screen and (min-width:320px) and (max-width:425px)  {
+        .col-sm-1 { width: 25%; }
+        .col-sm-2 { width: 50%; }
+        .col-sm-3 { width: 75%; }
+        .col-sm-4 { width: 100%; }
+        
+        h1,h2,h3,h4,h5,h6,p{
+            font-family:Be Vietnam Pro;
+        }
+        
+        h1{
+            font-size: 35px;
+            font-weight: bold;
+            /* width: 600px; */
+        }
+        
+        h2{
+            font-size: 26px;
+            font-weight: bold;
+        }
+        
+        h3{
+            font-size: 16px;
+            font-weight: bold;
+            
+        }
+        h4{
+            font-size: 22px;
+            font-weight: bold;
+            
+        }
+        
+        a{
+            font-family:Be Vietnam Pro;
+            font-size: 14px;
+            font-weight: medium;
+            text-decoration: none;
+            list-style-type: none;
+            color: rgb(255, 255, 255);
+        }
+        
+        .sub-body{
+            font-family:Be Vietnam Pro;
+            font-size: 20px;
+            font-weight: normal;
+            
+        }
+        .card-body{
+            font-family:Be Vietnam Pro;
+            font-size: 14px;
+            font-weight: normal;
+        }
+        
+        p{
+            font-size: 16px;
+            font-weight: normal;
+            width: 300px;
+            
+        }
+        .card-heading{
+            font-family:Be Vietnam Pro;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        
+        .image-wrapper img{
+            width: 300px;
+            flex: 1 0 0;
+        }
+        
+        .header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            
+        }
+        
+        .navigation{
+            display: flex;
+            gap: 189px;
+            align-items: center;
+        }
+        
+        .active{
+            color: brown;
+        }
+        .logo{
+            display: flex;
+            height: 50px;
+            width: 50px;
+        }
+        
+        .menu{
+            display: flex;
+            justify-content: center;
+            gap: 35px;;
+        }
+        
+        
+        .container{
+            width: 300px;
+            margin: auto;
+        }
+        
+        .footer{
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: center;
+        }
+        footer{
+            background-color: rgb(171, 0, 0); 
+            height: 590px;
+        }
+        .footer-location{
+            width: 357px;
+        }
+        
+        .copyright{
+            display: flex;
+            flex-direction: column;
+            
+            
+        }
+        .paragraph{
+            width:300px;
+        }
+        
+        
+        
+    }
+    
+    
+    /* Add this to your styles.css file */
+    
+    /* Hamburger menu styles */
+    .hamburger {
+        display: none;
+        cursor: pointer;
+        width: 30px;
+        height: 24px;
+        position: relative;
+        margin-left: 15px;
+    }
+    
+    .hamburger span {
+        background-color: #fff;
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        transition: all 0.3s ease;
+    }
+    
+    .hamburger span:nth-child(1) {
+        top: 0;
+    }
+    
+    .hamburger span:nth-child(2) {
+        top: 10px;
+    }
+    
+    .hamburger span:nth-child(3) {
+        top: 20px;
+    }
+    
+    /* Hamburger active styles - creates X shape */
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg);
+        top: 10px;
+    }
+    
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg);
+        top: 10px;
+    }
+    
+    .mobile-nav {
+        display: none;
+        align-items: center;
+    }
+    
+    .mobile-donate {
+        display: none;
+    }
+    
+    /* Media queries for responsive design */
+    @media only screen and (max-width: 768px) {
+        .container {
+            width: 100%;
+            padding: 0 20px;
+        }
+        
+        .navigation {
+            justify-content: space-between;
+            gap: 0;
+            padding: 1rem 0;
+        }
+        
+        .header-menu {
+            display: none;
+            position: fixed;
+            top: 80px;
+            left: 0;
+            right: 0;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .header-menu.active {
+            display: block;
+        }
+        
+        .menu {
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .menu a {
+            display: block;
+            padding: 10px 0;
+        }
+        
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+        
+        .mobile-nav {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .desktop-donate {
+            display: none;
+        }
+        
+        .mobile-donate {
+            display: block;
+        }
+    }
+    
+    .hamburger {
+        display: none;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .hamburger span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background: #000;
+        border-radius: 3px;
+        transition: all 0.3s ease;
+    }
+    
+    .hamburger span:nth-child(1) {
+        top: 0;
+    }
+    
+    .hamburger span:nth-child(2) {
+        top: 8px;
+    }
+    
+    .hamburger span:nth-child(3) {
+        top: 16px;
+    }
+    
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg);
+        top: 8px;
+    }
+    
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg);
+        top: 8px;
+    }
+    
+    /* Add these updated styles to your styles.css file */
+    
+    /* Header and navigation base styles */
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0,0.8);
+        
+        z-index: 1000;
+        padding: 10px 0;
+    }
+    
+    .navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    
+    .logo {
+        display: flex;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .menu {
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+    }
+    
+    /* Hamburger menu styles */
+    .hamburger {
+        display: none;
+        cursor: pointer;
+        width: 30px;
+        height: 25px;
+        position: relative;
+        margin-left: 15px;
+    }
+    
+    .hamburger span {
+        background-color: #fff;
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        transition: all 0.3s ease;
+        border-radius: 2px;
+    }
+    
+    .hamburger span:nth-child(1) {
+        top: 0;
+    }
+    
+    .hamburger span:nth-child(2) {
+        top: 10px;
+    }
+    
+    .hamburger span:nth-child(3) {
+        top: 20px;
+    }
+    
+    /* Hamburger active styles - creates X shape */
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg);
+        top: 10px;
+    }
+    
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg);
+        top: 10px;
+    }
+    
+    .mobile-nav {
+        display: none;
+        align-items: center;
+    }
+    
+    .mobile-donate {
+        display: none;
+    }
+    
+    .desktop-donate {
+        display: block;
+    }
+    
+    /* Media queries for responsive design */
+    @media only screen and (max-width: 768px) {
+        .container {
+            width: 90%;
+            max-width: 700px;
+        }
+        
+        .navigation {
+            justify-content: space-between;
+            position: relative;
+            padding: 10px 0;
+            gap: 0;
+        }
+        
+        .header-menu {
+            position: fixed;
+            top: 70px; /* Adjust based on header height */
+            left: -100%;
+            width: 100%;
+            height: calc(100vh - 70px);
+            background-color: rgb(171, 0, 0);
+            transition: all 0.3s ease;
+            z-index: 999;
+        }
+        
+        .header-menu.active {
+            left: 0;
+        }
+        
+        .menu {
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding-top: 50px;
+            gap: 25px;
+        }
+        
+        .menu a {
+            margin: 5px 0;
+            font-size: 18px;
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .hamburger {
+            display: block;
+        }
+        
+        .mobile-nav {
+            display: flex;
+            align-items: center;
+        }
+        
+        .desktop-donate {
+            display: none;
+        }
+        
+        .mobile-donate {
+            display: block;
+            font-size: 14px;
+            padding: 8px 20px;
+        }
+        
+        /* Adjust hero section to account for fixed header */
+        .hero-section {
+            padding-top: 70px;
+        }
+    }
+    
+    
+    /* FOR TABLET */
+    @media only screen and (min-width:426px) and (max-width:768px)  {
+        
+        .footer{
+            width: 768px;
+            display: flex;
+            flex-direction: column;
+            gap: 80px;
+            justify-content: center;
+        }
+        footer{
+            background-color: rgb(171, 0, 0); 
+            margin-left: -10rem;
+            margin-top: 10rem;
+            padding: 3rem 10rem;  
+            height: 50rem;
+        }
+        .footer-logo{
+            height:100px;
+            width: 100px;
+        }
+        .footer-location{
+            color: white;
+            width: 357px;
+        }
+        .footer-heading{
+            color: white;
+            margin-bottom: 20px;}
+            
+        }
+        
+        

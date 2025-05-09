@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WCFA</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/volunteer.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="navigation container">
+            <div class="logo">
+                <a class="logo" href="../index.html"><img src="../assets/logo 1.svg" alt="logo"></a>
+            </div>
+            <div class="header-menu">
+                <ul class="menu">
+                    <a href="../html/about-us.html"><li>About Us</li></a>
+                    <a href="../html/donate.html"><li>Donate</li></a>
+                    <a href="../html/volunteer.html"><li class="active">Volunteer</li></a>
+                    <a href="../html/find-help.html"><li>Find Help</li></a>
+                    <a href="../html/contact-us.html"><li>Contact Us</li></a>
+                </ul>
+            </div>
+            <div class="mobile-nav">
+                <a class="button mobile-donate" href="../html/donate.html">Donate</a>
+                <div class="hamburger" id="hamburger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <a class="button desktop-donate" href="../html/donate.html">Donate</a>
+        </nav>
+    </header>
+    
+    
+    <section class="volunteer-hero-section">
+        <!-- <img class="heroimage" src="./assets/home pageb hero.jpg" alt=""> -->
+        <div class="hero">
+            <div class="hero-text">
+                <h1>Transforming Lives, Building Futures</h1>
+                <p class="paragraph">Learn more about our mission, vision, and the impactful work we do to empower communities and create a brighter tomorrow.</p>
+            </div>
+            <a class="button" href="../html/donate.html">Donate</a>
+        </div>
+    </section>
+    <section class="container">
+        <div class="form-background container">
+            <div class="volunteer">
+                <div class="sub-volunteer">
+                    <div class="form-bg container">
+                        <form action="#" method="post" class="donation-form"></form>
+                        <div class="name">
+                            <div class="form-text">
+                                <label for="first-name" class="form-lable">First Name</label>
+                                <input id="donate-name" class="inputbar" type="text" id="first-name" placeholder="enter your first name">  
+                                <span id="donate-name-error" class="error-message">*enter your first name</span>   
+                            </div>
+                            <div class="form-text">
+                                <label for="last-name" class="form-lable">Last Name</label>
+                                <input id="donate-last-name" class="inputbar" type="text" id="last-name" placeholder="enter your second name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-bg container">
+                        <form action="#" method="post" class="donation-form"></form>
+                        <div class="name">
+                            <div class="form-text">
+                                <label for="email" class="form-lable">Email</label>
+                                <input id="donate-email" class="inputbar" type="email" id="email" placeholder="enter your email"> 
+                                <span id="donate-email-error" class="error-message">*enter your email name</span> 
+                                <span id="donate-email-invalid" class="error-message">*enter valid email </span>    
+                            </div>
+                            <div class="form-text">
+                                <label for="phone" class="form-lable">Phone</label>
+                                <input id="donate-phone" class="inputbar" type="number" id="phone" placeholder="enter your phone number">
+                                <span id="donate-phone-error" class="error-message">*enter your phone number</span> 
+                            </div>
+                        </div> 
+                    </div> 
+                </div>
+                <div class="form-text name address">
+                    <label for="address" class="form-lable">Address</label>
+                    <input id="donate-amount" type="text" id="amount" placeholder="enter amount">  
+                    <span id="donate-amount-error" class="error-message">*enter your address</span> 
+                    <span id="negative-amount-error" class="error-message">*enter your amount in postive number</span>
+                    
+                </div>
+                <div class="form-text name area-text">
+                    <label for="message" class="form-lable">Message</label>
+                    <textarea id="message"></textarea>   
+                </div>
+                <div class="apply">
+                    <div class="checkbox-text">
+                        <label for="email" class="form-lable">I agree with terms of use and privacy policy</label>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div id="button-donate" class="button"><a class="button" href="">Donate</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="donation-popup" id="donation-popup">
+            <div class="donation-popup-text">
+                <h3>Thank You for Your Generosity!</h3>
+                <p>Your donation will make a significant impact on the lives of those in need. Together, we can create a brighter future for our communities.</p>
+                <p>Thank you for being a part of our journey!</p>
+                <div> <a id="close" class="button" href="">close</a></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer container">
+            <div>
+                <img src="../assets/whitelogo 1.svg" alt="" class="footer-logo">
+                <div class="footer-location">
+                    <p>street 10, mumbai, india</p>
+                    <p>+977 01-4951732, 4965826</p>
+                    <p>info@wecareforall.com.in</p>
+                    
+                </div>
+                
+            </div>
+            <div>
+                <h3 class="footer-heading">Quick Links</h3>
+                <div>
+                    <ul class="footer-link">
+                        <a href=""><li>About Us</li></a>
+                        <a href=""><li>Donate</li></a>
+                        <a href=""><li>Volunteer</li></a>
+                        <a href=""><li>Find Help</li></a>
+                        <a href=""><li>Contact Us</li></a>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h3 class="footer-heading">Useful Links</h3>
+                <div>
+                    <ul class="footer-link">
+                        <a href=""><li>Legal & Policies</li></a>
+                        <a href=""><li>About the Organization</li></a>
+                        <a href=""><li>International help line</li></a>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        <div>
+            <p class="copyright container">Copyright © <script>document.write(new Date().getFullYear())</script> Celestials. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="../js/hamburger.js"></script>
+    <script src="../js/volunteer.js"></script>
+    
+    
+</body>
+</html>
+
+
+

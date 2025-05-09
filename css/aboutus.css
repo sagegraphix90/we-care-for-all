@@ -1,0 +1,235 @@
+.about-us-hero-section{
+    background-image: url(../assets/about-us-hero.png);
+    background-size:cover;
+    margin-bottom:100px;
+}
+.aboutsus-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    
+}
+.aboutsus-text h1{
+    color: rgb(171, 0, 0);;
+}
+.aboutsus-text p{
+    width: 952px;
+    margin-bottom:100px;
+    
+}
+.visions{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.main-vision{
+    display: inline-flex;
+    gap: 65px;
+    
+    
+}
+.vision{
+    display: flex;
+    width: 358px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21px;
+}
+
+.vision p{
+    text-align: justify;
+}
+.projects{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.project h1{
+    font-size: 20px;
+    font-size: normal;
+    align-items: center;
+}
+.our-projects{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.project p{
+    width: 270px;
+    text-align: justify;
+}
+.project{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21px;
+    
+}
+
+.vision p{
+    width: 300px;
+}
+
+.support-this{
+    background-color: rgb(171, 0, 0);
+    color: aliceblue;
+    padding: 10px 30px;
+}
+
+.testo{
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (min-width:320px) and (max-width:425px)  {
+    
+    .aboutsus-text h1{
+        color: rgb(171, 0, 0);;
+    }
+    .aboutsus-text p{
+        width: 300px;
+        margin-bottom:100px;
+        
+    }
+    .visions{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .main-vision{
+        display: flex;
+        flex-direction: column;
+        
+        
+        
+    }
+    .vision{
+        display: flex;
+        width: 358px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 21px;
+    }
+    
+    .vision p{
+        text-align: justify;
+    }
+    
+    .project h1{
+        font-size: 20px;
+        font-size: normal;
+        align-items: center;
+    }
+    .our-projects{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        
+        
+    }
+    
+    .project{
+        display: flex;
+        width: 300px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 21px;
+        
+    }
+    
+    .vision p{
+        width: 300px;
+    }
+    
+    
+    
+    .testo{
+        display: flex;
+        align-items: center;
+    }
+    .testo-size{
+        width: 300px;
+    }
+}
+
+
+@media only screen and (min-width:425px) and (max-width:768px)  {
+    .about-us-hero-section{
+        background-image: url(../assets/about-us-hero.png);
+        background-size:cover;
+        width: 100vw;
+        margin-bottom:100px;
+    }
+    
+    
+    .aboutsus-text h1{
+        color: rgb(171, 0, 0);;
+    }
+    .aboutsus-text p{
+        width: 300px;
+        margin-bottom:100px;
+        
+    }
+    .visions{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .main-vision{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        
+    }
+    .vision{
+        display: flex;
+        width: 358px;
+        flex-direction: column;
+        align-items: center;
+        gap: 21px;
+    }
+    
+    .vision p{
+        text-align: justify;
+    }
+    
+    .project h1{
+        font-size: 20px;
+        font-size: normal;
+        align-items: center;
+    }
+    .our-projects{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        
+        
+    }
+    
+    .project{
+        display: flex;
+        width: 300px;
+        flex-direction: column;
+        align-items: center;
+        gap: 21px;
+        
+    }
+    
+    .vision p{
+        width: 300px;
+    }
+    
+    
+    
+    .testo{
+        display: flex;
+        align-items: center;
+    }
+    .testo-size{
+        width: 300px;
+    }
+}
+
